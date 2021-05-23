@@ -7,19 +7,18 @@ The purpose of the Belly Button Diversity project is to build an HTML page that 
 ### Results
 #### Drop down and Demographic Information
 ![Demographics](images/sample.PNG)
-
 A simple to use drop down feature alloss you to select a test subject by their associated ID.
 
+#### Bar Graph
 ![Bar_Graph](images/bar.PNG)
-
 The Bar Chart represents the top 10 bacteria cultures present in the sample ranging from least to greatest. Hovering over each horizontal bar displays the bacteria species.
 
+#### Gauge Graph
 ![Gauge_Graph](images/gauge.PNG)
-
 The Gauge Chart represents the weekly washing freqency of each participants belly button.
 
+#### Bubble Graph
 ![Bubble_Chart](images/bubble.PNG)
-
 The Bubble Chart represents the amount of each bacterial species based on the sample cultures on the sample ID chosen above. The bubbles grow with the quanity and frequency of each bateria culture.
 
 ## Summary
