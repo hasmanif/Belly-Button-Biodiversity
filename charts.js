@@ -132,8 +132,7 @@ function buildCharts(sample) {
       {
         domain: { x: [0, 1], y: [0, 1] },
         value: wfreq,
-        title: { text: ('<h1>Belly Button Washing Frequency</h1><h3>Weekly</h3>'), font: {size: 16} },
-        subtitle: { text: "Weekly", font: {size: 16} },
+        title: { text: '<b>Belly Button Washing Frequency</b><br>Weekly', font: {size: 16} },
         type: "indicator",
         mode: "gauge+number",
         nticks: 10,
@@ -158,7 +157,7 @@ function buildCharts(sample) {
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
       width: 400, 
-      height: 225, 
+      height: 325, 
       margin: { t: 0, b: 0 },
       paper_bgcolor: "rgb(16, 29, 16)",
       font: { color: "white", family: "Arial Bold" }
